@@ -1,0 +1,21 @@
+body {
+    margin: 20px;
+    /*width:500px;*/
+    background-color: #66ccff;
+}
+
+table {
+    border: 1px solid black;
+    font-size: 1.3em;
+    width: 100%;
+    text-align: center;
+    background-color: #F5F5F5;
+}
+
+th {
+    border: 1px solid black;
+}
+
+td {
+    border: 1px solid black;
+}

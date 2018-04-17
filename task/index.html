@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="UTF-8">
+    <title>CodersLab</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="http://code.jquery.com/jquery-2.2.1.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/paging.js"></script>
+</head>
+<body>
+
+    <table id="myTable" class="tablesorter">
+        <thead>
+            <tr>
+                <th class="numberSort">ID &nbsp;<i class="fas fa-sort id"></i></th>
+                <th class="stringSort">First Name &nbsp;<i class="fas fa-sort firstName"></th>
+                <th class="stringSort">Last Name &nbsp;<i class="fas fa-sort lastName"></th>
+                <th class="numberSort">Birth Date &nbsp;<i class="fas fa-sort birthDate"></th>
+                <th class="stringSort">Company &nbsp;<i class="fas fa-sort company"></th>
+                <th class="numberSort">Note &nbsp;<i class="fas fa-sort note"></th>
+            </tr>
+        </thead>
+        <tbody class="list">
+
+        </tbody>
+
+    </table>
+    <div id="pagination"></div>
+
+    <script src="js/app.js" type="text/javascript"></script>
+
+</body>
+</html>
